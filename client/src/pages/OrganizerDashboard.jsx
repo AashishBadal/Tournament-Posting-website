@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import OrganizerNavbar from "../components/OrganizerNavbar";
-import OrganizerSidebar from "../components/OrganizerSidebar";
-import DashboardHome from "../components/DashboardHome";
-import CreateTournament from "../components/CreateTournament";
-import ManageTournaments from "../components/ManageTournaments";
-import TournamentApplicants from "../components/TournamentApplicants";
-import OrganizerFooter from "../components/OrganizerFooter";
+import OrganizerNavbar from "../components/Organizer/OrganizerNavbar";
+import OrganizerSidebar from "../components/Organizer/OrganizerSidebar";
+import DashboardHome from "../components/Organizer/DashboardHome";
+import CreateTournament from "../components/Organizer/CreateTournament";
+import ManageTournaments from "../components/Organizer/ManageTournaments";
+import TournamentApplicants from "../components/Organizer/TournamentApplicants";
+import OrganizerFooter from "../components/Organizer/OrganizerFooter";
 
 const OrganizerDashboard = () => {
   const [activeTab, setActiveTab] = useState("dashboard");

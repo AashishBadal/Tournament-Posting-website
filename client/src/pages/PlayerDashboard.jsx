@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import PlayerNavbar from "../components/PlayerNavbar";
-import PlayerSidebar from "../components/PlayerSidebar";
-import BrowseTournaments from "../components/BrowseTournaments";
-import MyApplications from "../components/MyApplications";
-import MyTeams from "../components/MyTeams";
-import PlayerFooter from "../components/PlayerFooter";
+import PlayerNavbar from "../components/Player/PlayerNavbar";
+import PlayerSidebar from "../components/Player/PlayerSidebar";
+import BrowseTournaments from "../components/Player/BrowseTournaments";
+import MyApplications from "../components/Player/MyApplications";
+import PlayerFooter from "../components/Player/PlayerFooter";
 
 const PlayerDashboard = () => {
   const [activeTab, setActiveTab] = useState("browse");
@@ -15,8 +14,6 @@ const PlayerDashboard = () => {
         return <BrowseTournaments />;
       case "applications":
         return <MyApplications />;
-      case "teams":
-        return <MyTeams />;
       default:
         return <BrowseTournaments />;
     }
