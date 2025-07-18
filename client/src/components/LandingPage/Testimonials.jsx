@@ -14,7 +14,7 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      quote: "TourneyHub helped me find local esports tournaments easily. Won my first cash prize in PUBG!",
+      quote: "Lets Play helped me find local esports tournaments easily. Won my first cash prize in PUBG!",
       name: "Rohan, Kathmandu",
       game: "PUBG Mobile",
       avatar: "🎮",
@@ -28,7 +28,7 @@ const Testimonials = () => {
       rating: 4
     },
     {
-      quote: "The competitive scene in Nepal is growing thanks to TourneyHub. Made new friends and improved my skills!",
+      quote: "The competitive scene in Nepal is growing thanks to Lets Play. Made new friends and improved my skills!",
       name: "Amit, Lalitpur",
       game: "Valorant",
       avatar: "🔫",

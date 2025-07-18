@@ -35,7 +35,7 @@ const Navbar = () => {
               onClick={() => navigate('/')}
               className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 cursor-pointer hover:from-blue-300 hover:to-purple-500 transition-all"
             >
-              TourneyHub
+              Lets Play
             </span>
           </div>
 

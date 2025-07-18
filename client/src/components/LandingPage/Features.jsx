@@ -60,7 +60,7 @@ const Features = () => {
         <div className={`transition-all duration-700 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-16">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-300">
-              Why Choose TourneyHub?
+              Why Choose Lets Play?
             </span>
           </h2>
           

@@ -11,7 +11,7 @@ const OrganizerFooter = () => {
               <svg className="w-8 h-8 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
-              <span className="ml-2 text-xl font-bold text-white">TourneyHub</span>
+              <span className="ml-2 text-xl font-bold text-white">Lets Play</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               The ultimate platform for organizing esports and outdoor tournaments with seamless management tools.
@@ -124,7 +124,7 @@ const OrganizerFooter = () => {
                 <svg className="w-5 h-5 mr-3 mt-0.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span className="text-gray-400 hover:text-indigo-400 transition duration-300">support@tourneyhub.com</span>
+                <span className="text-gray-400 hover:text-indigo-400 transition duration-300">support@letsplay.com</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 mr-3 mt-0.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,7 +146,7 @@ const OrganizerFooter = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} TourneyHub. All rights reserved.
+            © {new Date().getFullYear()} . All rights reserved.
           </div>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-indigo-400 transition duration-300 text-sm">

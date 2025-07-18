@@ -6,7 +6,7 @@ const OrganizerNavbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-indigo-400">TourneyHub</span>
+            <span className="text-xl font-bold text-indigo-400">Lets Play</span>
             <span className="text-xs font-medium bg-indigo-900 text-indigo-300 px-2 py-1 rounded-full">
               Organizer
             </span>
