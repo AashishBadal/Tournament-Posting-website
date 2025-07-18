@@ -36,13 +36,6 @@ const DashboardHome = () => {
     },
   ];
 
-  const quickActions = [
-    { icon: "➕", title: "Create Tournament", link: "#create" },
-    { icon: "📋", title: "Manage Teams", link: "#teams" },
-    { icon: "💰", title: "View Payments", link: "#payments" },
-    { icon: "⚙️", title: "Settings", link: "#settings" },
-  ];
-
   return (
     <div className="space-y-6">
       {/* Welcome Banner */}
@@ -123,26 +116,7 @@ const DashboardHome = () => {
         </div>
       </div>
 
-      {/* Quick Actions */}
-      <div className="bg-gray-800 p-6 rounded-lg shadow-md">
-        <h2 className="text-xl font-bold mb-6 text-white">Quick Actions</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {quickActions.map((action, index) => (
-            <a
-              key={index}
-              href={action.link}
-              className="flex flex-col items-center justify-center p-4 border border-gray-700 rounded-lg hover:bg-gray-700 hover:border-indigo-500 transition-colors group"
-            >
-              <span className="text-3xl mb-2 group-hover:text-indigo-400 transition-colors">
-                {action.icon}
-              </span>
-              <span className="font-medium text-gray-300 group-hover:text-white transition-colors">
-                {action.title}
-              </span>
-            </a>
-          ))}
-        </div>
-      </div>
+
     </div>
   );
 };

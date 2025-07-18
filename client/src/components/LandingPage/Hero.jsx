@@ -31,11 +31,11 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
             <button 
-              onClick={() => navigate('/tournaments')}
+              onClick={() => navigate('/login')}
               className="relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-medium group rounded-xl"
             >
               <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 group-hover:from-blue-700 group-hover:to-purple-700 transition-all duration-300"></span>
-              <span className="relative text-white font-bold text-lg">Browse Tournaments</span>
+              <span  className="relative text-white font-bold text-lg">Browse Tournaments</span>
               <span className="absolute right-0 pr-2 duration-300 ease-out group-hover:translate-x-1">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>

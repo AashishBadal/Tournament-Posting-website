@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Tournaments = () => {
+  const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState("esports");
   const [isVisible, setIsVisible] = useState(false);
 
@@ -137,7 +139,7 @@ const Tournaments = () => {
                   </div>
                   <div className="bg-gray-800/50 px-6 py-3 flex justify-between items-center">
                     <span className="text-sm text-gray-400">Registration open</span>
-                    <button className="text-sm font-medium bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
+                    <button onClick={() => navigate('/login')} className="text-sm font-medium bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
                       Register Now
                     </button>
                   </div>

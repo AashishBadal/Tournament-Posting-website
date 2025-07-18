@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { FiMail, FiLock, FiUser, FiEye, FiEyeOff, FiArrowRight, FiPhone } from 'react-icons/fi';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate()
   const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
     email: '',
@@ -248,7 +250,7 @@ const Login = () => {
                 </div>
 
                 <div className="text-sm">
-                  <a href="#" className="font-medium text-indigo-400 hover:text-indigo-300">
+                  <a onClick={()=>navigate('/forgot-password')} className="font-medium text-indigo-400 hover:text-indigo-300">
                     Forgot password?
                   </a>
                 </div>
