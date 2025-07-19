@@ -6,6 +6,7 @@ const OrganizerSidebar = ({ activeTab, setActiveTab }) => {
     { id: "create", icon: "➕", label: "Create Tournament" },
     { id: "manage", icon: "📋", label: "Manage Tournaments" },
     { id: "applicants", icon: "👥", label: "Applicants" },
+    
   ];
 
   return (

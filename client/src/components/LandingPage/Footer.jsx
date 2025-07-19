@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
@@ -32,43 +32,6 @@ const Footer = () => {
               <div className="w-3 h-3 rounded-full bg-indigo-500 animate-pulse"></div>
               <p className="text-xs text-gray-500">Live tournaments: 24</p>
             </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-bold text-lg mb-4 text-gray-300">
-              Quick Links
-            </h4>
-            <ul className="space-y-3">
-              {["Home", "Esports", "Outdoor", "How It Works", "Pricing"].map(
-                (item) => (
-                  <li key={item}>
-                    <a
-                      href="#"
-                      className="text-gray-400 hover:text-indigo-400 transition-colors duration-200 flex items-center group"
-                    >
-                      <span className="group-hover:translate-x-1 transition-transform duration-200">
-                        {item}
-                      </span>
-                      <svg
-                        className="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M9 5l7 7-7 7"
-                        />
-                      </svg>
-                    </a>
-                  </li>
-                )
-              )}
-            </ul>
           </div>
 
           {/* Contact */}
